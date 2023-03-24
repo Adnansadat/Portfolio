@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Sofia+Sans:wght@200&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Julius+Sans+One&family=Sofia+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@200&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Sofia+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@200&family=Source+Sans+Pro&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar{
+	background-color: #A1A1A1;
+	background: linear-gradient(to bottom, #a1a1a1, #d0d0d0, #ffffff);
+/*	background: linear-gradient(to bottom,#0099ff, #80ccff, #ccebff);*/
+	width: 300px;
+	font-family: 'Poppins', sans-serif;
+/*	font-family: 'Cardo', serif;*/
+	height: 100vh;
+}
+
+.sidebar nav{
+	padding: 30px;
+	
+}
+
+.sidebar nav li{
+	list-style: none;
+	font-size: 25px;
+	padding: 15px 7px;
+	
+}
+
+.sidebar nav li a{
+	text-decoration: none;
+	color: black;
+}
+
+.sidebar nav li:hover{
+	display: inline-block;
+	line-height: 15px;
+	margin: 0 5px;
+	transition: .5s;
+	background-color: #ececec;
+	border-radius: 10px;
+	align-items: center;
+}
+
+.main{
+/*	background: linear-gradient(to Bottom,#ffffff, #e6e6ff,  #d6d6ff);*/
+	width: 90vw;
+
+}
+
+.container{
+	display: flex;
+
+}
+
+.infocontainer{
+/*	background-color: green;*/
+	margin: 145px auto;
+	height: 60vh;
+	width: 80vw;
+	display: flex;
+	justify-content: space-around;
+}
+
+.devInfo{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+	font-size: 60px;
+}
+
+.name{
+	font-size: 55px;
+/*	font-weight: bold;*/
+	font-family: 'Source Sans Pro', sans-serif;
+/*	font-family: 'Poiret One', cursive;*/
+/*	font-family: 'Poppins', sans-serif;*/
+/*	font-family: 'Sofia Sans', sans-serif;*/
+}
+
+
+.about{
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+
+.description{
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+/*	padding: 25px;*/
+}
+
+.buttons{
+	margin-top: 35px;
+}
+
+.buttons button{
+	padding: 12px;
+	border-radius: 25px;
+	border-color: black;
+/*	color: black;*/
+/*	background: linear-gradient(to bottom,#0099ff, #80ccff, #ccebff);*/
+/*	background-color: #33adff;*/
+/*	background-color: #59bdff;*/
+	background-color: #d0d0d0;
+/*	font-family: 'Poppins', sans-serif;*/
+	font-family: 'Source Code Pro', monospace;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 0 3px;
+}
+
+.buttons button:hover{
+	background-color: white;
+	transition: .5s;
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+
+.devPic img {
+
+	height: 400px;
+	width: 390px;
+	border-radius: 200px;
+
+}
